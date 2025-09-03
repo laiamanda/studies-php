@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <title>File Uploads</title>
+    </head>
+    <body>
+        <h2> Upload a File </h2>
+        <form action="upload.php" method="POST" enctype="multipart/form-data">
+            Select file: <input type="file" name="file"><br><br>
+            <input type="submit" value="Upload File">
+        </form>
+    </body>
+</html>
